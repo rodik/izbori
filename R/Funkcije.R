@@ -1,6 +1,7 @@
 library(readxl)
 library(dplyr)
 library(tidyr)
+library(tidyverse)
 
 # lokalni izbori funkcije
 lokalni_izbori_procitaj <- function(file_path, drugi_krug = FALSE){
